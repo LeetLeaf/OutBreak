@@ -1,0 +1,19 @@
+﻿Build started 2/27/2012 9:34:01 PM.
+     1>Project "C:\Users\Kyle Keebler\Documents\COLLAB\GameCollab.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\GameCollab.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Events.cpp Render.cpp
+         Render.cpp
+     1>c:\users\kyle keebler\documents\collab\render.cpp(18): error C2511: 'void Render::renderEntities(Screen,TextureList,Grid)' : overloaded member function not found in 'Render'
+                 c:\users\kyle keebler\documents\collab\render.h(10) : see declaration of 'Render'
+         Events.cpp
+     1>c:\users\kyle keebler\documents\collab\events.cpp(11): error C2511: 'void Events::gameEvents(SDL_Event &,Movement &)' : overloaded member function not found in 'Events'
+                 c:\users\kyle keebler\documents\collab\events.h(8) : see declaration of 'Events'
+     1>c:\users\kyle keebler\documents\collab\events.cpp(63): error C2065: 'gameRunning' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\Users\Kyle Keebler\Documents\COLLAB\GameCollab.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.44
